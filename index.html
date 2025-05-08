@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nova Lumina</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sora', sans-serif;
+      background-color: #f6f5f3;
+      color: #1a1a1a;
+      line-height: 1.6;
+    }
+    header {
+      background: url('https://source.unsplash.com/1600x900/?city,night') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 12rem 2rem 6rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.25rem;
+      margin: 1rem 0;
+    }
+    .btn {
+      background-color: white;
+      color: #1a1a1a;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 4px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+    .about p, .contact p {
+      margin-bottom: 1.25rem;
+    }
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .portfolio-grid img {
+      width: 100%;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+    .contact {
+      text-align: center;
+    }
+    .contact a {
+      display: inline-block;
+      margin-top: 1rem;
+      color: #1a1a1a;
+      text-decoration: underline;
+      font-weight: 600;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.875rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nova Lumina</h1>
+    <p>Mobiele fotografie met een visie</p>
+    <p>Ik ben een fotograaf met grote ambities. Wat vandaag begint met een telefoon, groeit uit tot een professionele carrière in beeld.<br>Dit is waar het begint — welkom.</p>
+    <a href="#portfolio" class="btn">Bekijk portfolio</a>
+  </header>
+
+  <section class="about" id="about">
+    <h2>Over mij</h2>
+    <p>Mijn naam is [jouw naam], en ik fotografeer momenteel met de Samsung Galaxy S24 Ultra. Niet uit beperking, maar uit keuze.</p>
+    <p>Ik geloof dat goede fotografie begint met visie, niet met dure apparatuur.</p>
+    <p>Mijn ambitie is om een van de toonaangevende fotografen te worden. De telefoon is het begin — geen eindpunt.</p>
+    <p>In mijn werk staan compositie, sfeer en het vastleggen van het juiste moment centraal. Of het nu op straat is, in de natuur, of in het abstracte spel van licht en schaduw.</p>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-grid">
+      <img src="https://source.unsplash.com/500x500/?street,photography" alt="Street photo" />
+      <img src="https://source.unsplash.com/500x500/?nature,light" alt="Nature light" />
+      <img src="https://source.unsplash.com/500x500/?urban,abstract" alt="Urban abstract" />
+      <img src="https://source.unsplash.com/500x500/?shadows,architecture" alt="Shadows architecture" />
+      <img src="https://source.unsplash.com/500x500/?night,city" alt="Night city" />
+      <img src="https://source.unsplash.com/500x500/?minimal,photo" alt="Minimal photo" />
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact</h2>
+    <p>Voor opdrachten, samenwerkingen of vragen kun je contact opnemen via e-mail of Instagram.</p>
+    <a href="mailto:info@novalumina.com">info@novalumina.com</a><br>
+    <a href="https://www.instagram.com/just_a_photographer.fr" target="_blank">Instagram: @just_a_photographer.fr</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Nova Lumina. Alle rechten voorbehouden.
+  </footer>
+</body>
+</html>
